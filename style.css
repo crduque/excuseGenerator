@@ -1,0 +1,23 @@
+body {
+    background: cornflowerblue;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+.content {
+    background: white;
+    width: fit-content;
+    border: solid;
+    border-width: 1px;
+    border-radius: 3px;
+    transform: translateY(50%);
+}
+.content p{
+    font-size: 20px;
+    padding: 5px 20px 5px 20px;
+}
+.script {
+    font-weight: bold;
+    font-size: 24px;
+}
