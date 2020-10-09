@@ -1,12 +1,12 @@
 function generator (){
-    var who = Math.floor(Math.random()*3+1);
-    var did = Math.floor(Math.random()*3+1);
-    var what = Math.floor(Math.random()*3+1);
-    var when = Math.floor(Math.random()*3+1);
+    let who = Math.floor(Math.random()*3+1);
+    let did = Math.floor(Math.random()*3+1);
+    let what = Math.floor(Math.random()*3+1);
+    let when = Math.floor(Math.random()*3+1);
 
-    var x = document.getElementById("excuse");
+    let x = document.getElementById("excuse");
 
-    var result = "";
+    let result = "";
 
     switch (who){
         case 1:
